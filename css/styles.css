@@ -659,11 +659,16 @@ img {
 .close-modal:focus {
   background-color: var(--ocean);
   transition: var(--tr);
+  fill: var(--dairy);
 }
 .close {
   width: 12px;
   height: 12px;
 }
+/*.close:hover,
+.close:focus {
+  fill: var(--dairy);
+}*/
 .is-hidden {
   pointer-events: none;
   visibility: hidden;
